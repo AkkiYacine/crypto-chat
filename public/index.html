@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>ChatRoom</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel = "stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="intro">
+      <h1>End-to-End Secure Chat Application</h1>
+    </div>
+
+    <div id="users-connected">
+      <h2>Users connected</h2>
+    </div>
+
+    <section id="users">
+      <ul id="userlist">
+        <!-- <li data-id="userId">Username</li> -->
+      </ul>
+    </section>
+
+    <section id="chat">
+      <button id="close-button" class="button-24" role="button">Close</button>
+      <ul id="messages"></ul>
+      
+      <form action="">
+        <input id="m" placeholder="Enter your message..." autocomplete="off" required /><button>Send</button>
+      </form>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>

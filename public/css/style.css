@@ -1,0 +1,150 @@
+* { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box;
+    font-family: "Gill Sans", sans-serif;
+}
+ 
+#intro{
+ 	background-color: #005e80;
+ 	color: #FFFFFF;
+ 	height: 120px;
+    text-align: center;
+    padding-top: 2.2%;
+}
+
+#users {
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* CSS */
+.button-24 {
+  width: 120px;
+  margin-bottom: 2%;
+  margin-top: 1%;
+  margin-left: 92%;
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-24:active {
+  opacity: .5;
+}
+
+
+#userlist > li {
+	text-align: center;
+	list-style: none;
+	background-color: #005e80;
+	height: 50px;
+	padding-top: 3%;
+	border-radius: 10px;
+	margin-top: 5px;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#userlist > li:hover {
+	background-color: #1b89b1;
+}
+
+#users-connected > h2 {
+	background-color: #1b89b1;
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 6%;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 50px;
+	border-radius: 10px;
+	padding-top: 0.5%;
+}
+
+
+body { 
+ 	font: 20px;
+	 background-color:rgba(35, 218, 224, 0.1);
+}
+
+#chat {
+	display: none;
+}
+
+form { 
+ 	background: #000000; 
+ 	padding: 3px; 
+ 	position: fixed; 
+ 	bottom: 5px; 
+ 	width: 100%;
+}
+ 
+form input {
+ 	background-color: #b5d4ea;
+ 	border: 0; 
+ 	padding: 10px; 
+ 	width: 92%;
+ 	margin-right: 0.5%; 
+}
+ 
+form button { 
+ 	width: 7.1%; 
+ 	background: #00dbe6;
+ 	border: none; 
+ 	padding: 5px; 
+ 	font-size: 20px;
+    border-radius: 2px;
+}
+ 
+#messages { 
+ 	margin-top: 0; 
+	margin-bottom: 0;
+	margin-left: 2%;
+	margin-right: 2%;
+ 	padding: 0; 	
+}
+ 
+#messages li { 
+    padding: 5px 10px;
+	font-size: 1.2em;
+	font-family: 'Trebuchet MS';
+	list-style: none;
+	border-radius: 10px;
+	background: #82f0e7;
+	margin-bottom: 1%;
+}
+ 
+.list{
+	text-align: right;
+}
